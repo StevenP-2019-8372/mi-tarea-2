@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" 
+    crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" 
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" 
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+ </head>
+ <body>
+  <div class="principal">
+    <div class="hijo">
+ <select name= "calcular" id="operacion">
+    <option selected>Operacion</option>
+    <option>Sumar</option> 
+    <option>Restar</option> 
+    <option>Multiplicar</option>
+    <option>Dividir</option> 
+  </select> 
+<input class="campos" type="text" placeholder= "Escribe tu primer numero..." id="num1"> 
+<input class="campos" type="text" placeholder="Escribe tu segundo numero..." id="num2"> 
+<input type="text" class="noVisible" name="calcular" id="resp"> 
+<input class="botones" type="button" onclick="calcular()" value="Calcular">
+<input class="botones" style="background: rgba(255, 0, 0, 0.66);" type="button" onclick="confireETodo()"
+ value="Eliminar todo"> 
+</div> 
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Operacion</th>
+        <th scope="col">Resultado</th> 
+    </tr> 
+    </thead>
+    <tbody id="calculo">
+
+    </tbody>
+
+    <textarea name="" id="cal" class="noVisible" cols="30" rows="10"> 
+        <tr>
+          <td>{operacion}</td>
+          <td>{Resultado}</td> 
+        </tr> 
+      </textarea> 
+    </table> 
+  </div> 
+  <script src="accion.js"></script> 
+</body> 
+</html>
+        
+    

@@ -1,0 +1,36 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+ }
+ .noVisible{
+  display: none;
+ }
+ .principal{
+  width: 80%; 
+  margin: 0 auto;
+ }
+ .hijo{
+  width: 50%; 
+  margin: 0 auto; 
+  margin-top: 50px;
+ }
+ select{
+  width: 80%; 
+  height: 35px; 
+  margin-left: 10%; 
+  margin-bottom: 20px;
+ }
+ .botones{
+  width: 80%; 
+  height: 35px; 
+  margin-left: 10%; 
+  margin-bottom: 20px; 
+  background-color: rgba(6, 173, 6, 0.616);
+ }
+ .campos{
+     width: 80%; 
+     height: 35px; 
+     margin-left: 10%; 
+     margin-bottom: 20px; 
+ }
+ 
